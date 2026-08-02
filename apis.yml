@@ -1,7 +1,24 @@
 aid: teamup-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teamup-inc.png
 name: TeamUp Inc.
-description: TeamUp Inc. is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'TeamUp Inc. operates fanZ (fanzapp.io), a gamified football (soccer) fan-engagement
+  mobile app for iOS and Android. fanZ combines fantasy football (fantaZ), social following of
+  teams, leagues and players, prediction challenges and mini-games, a rewards system of points,
+  badges and digital collectibles, an official merchandise store, and global leaderboards, plus
+  news, match highlights and video content. The product is a consumer-facing mobile application
+  operated by Wathbah for Information Technology and backed by 500 Global; no public developer
+  API, documentation, or developer portal was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/teamup-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Sports
+- Football
+- Fan Engagement
+- Fantasy Sports
+- Gaming
+- Mobile
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/teamup-inc-domain-security.yml
 - type: Website
   url: https://fanzapp.io
+- type: AppStore
+  name: fanZ on the App Store (iOS)
+  url: https://apps.apple.com/us/app/fanz-fantasy-football-scores/id6444231720
+- type: GooglePlay
+  name: fanZ on Google Play (Android)
+  url: https://play.google.com/store/apps/details?id=com.fanzapp
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
