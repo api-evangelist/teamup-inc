@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teamup-inc.png
-name: TeamUp Inc.
+name: fanZ
 description: 'TeamUp Inc. operates fanZ (fanzapp.io), a gamified football (soccer) fan-engagement
   mobile app for iOS and Android. fanZ combines fantasy football (fantaZ), social following of
   teams, leagues and players, prediction challenges and mini-games, a rewards system of points,
@@ -71,3 +71,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: TeamUp Inc.
